@@ -1,0 +1,112 @@
+body{
+    background-color: #4575;
+margin: 0;
+}
+.navbar{
+    position: relative;
+    background-color: rgba(19, 99, 131, 0.333);
+}
+.logo{
+    position:relative;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 0 60px 0;
+    flex: auto;
+    margin-left: 40px;
+    background: linear-gradient(red,green,blue);
+    border: 1px solid transparent;
+}
+.logo a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 0px;
+}
+.logo a:hover{
+    font-size: 20px;
+    transition: 0.3s;
+    color: black;
+    border-radius: 5px;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes anime{
+    from{background: indigo;
+        color: white;
+    }
+    to{
+        background: aqua;
+        color: black;
+    }
+}
+.menu{
+    display: flex;
+    gap: 5px;
+}
+.menu a{
+    position: relative;
+   text-decoration: none;
+   color: black;
+   text-transform: lowercase;
+   transition: 0.3s;
+   cursor: pointer;
+   flex: auto;
+   bottom: 20px;
+}
+.menu a:hover{
+    position: relative;
+    color:pink;
+    text-transform:lowercase;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+}
+.search-box{
+    gap: 1px;
+    flex-direction: column;
+}
+.search-box input{
+    position: relative;
+    width: 15vw;
+    height: 4vh;
+    border: 0px transparent;
+    text-align: center;
+    cursor: pointer;
+    flex: auto;
+    bottom: 20px;
+    margin-right: 10px;
+    border-left: 5px solid purple;
+    border-radius: 5px;
+}
+.search-box button{
+    position: relative;
+    height: 4vh;
+    border: 0px transparent;
+    cursor: pointer;
+   flex: auto;
+   bottom: 20px;
+   margin-right: 20px;
+   border-right: 5px solid blue;
+   border-radius: 5px;
+}
+.search-box input::placeholder{
+    color: black;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.search-box input:hover{
+font-size: 20px;
+text-transform: lowercase;
+transition: 0.3s;
+border-radius: 5px 0 0 5px;
+}
+.search-box button:hover{
+color: blue;
+text-transform: capitalize;
+border-left: 2px solid rgb(5, 30, 255);
+border-radius: 5px;
+}

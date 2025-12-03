@@ -161,7 +161,7 @@ body{
         width: auto;
         height:80vh;
         background-color: #222;
-        bottom: 20px;
+        bottom: 0px;
     }
     .footer h3{
         position: relative;
@@ -197,6 +197,14 @@ h1{
     margin: auto;
     margin-left: auto;
     border-radius: 0 20px 0 20px;
+}
+.para,video:hover{
+    position: relative;
+    transition: 0.3s;
+    animation: ease-in-out;
+    font: 20px;
+    cursor: pointer;
+    border-radius: 10px
 }
 .para{
     position: relative;
@@ -234,7 +242,7 @@ h1{
         margin: auto;
     }
 }
-.hero,b{
+.hero,i{
     position: relative;
     font: 20px bold;
     font-style: italic;
@@ -257,7 +265,6 @@ cursor: pointer;
 }
 .logo{
     position: relative;
-    color:white;
     margin: 0px;
     padding: 10px;
     margin-right: 700px;
@@ -268,6 +275,12 @@ cursor: pointer;
     height: 40px;
     box-shadow: 10px 0 0 10px rgb(70, 121, 231);
     background-image: url('./download.jpeg')
+}
+.logo i{
+    position: relative;
+    text-decoration: none;
+    color: rgb(245, 243, 244);
+    bottom: 5px;
 }
 .logo:hover{
     transition: 0.3s;
