@@ -1,112 +1,272 @@
 body{
-    background-color: #4575;
-margin: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d4f5ea;
 }
 .navbar{
     position: relative;
-    background-color: rgba(19, 99, 131, 0.333);
-}
-.logo{
-    position:relative;
-    top: 10px;
-    width: 60px;
-    height: 60px;
-    border-radius: 0 0 60px 0;
-    flex: auto;
-    margin-left: 40px;
-    background: linear-gradient(red,green,blue);
-    border: 1px solid transparent;
-}
-.logo a{
-    position: relative;
-    text-decoration: none;
-    color: white;
-    top: 0px;
-}
-.logo a:hover{
-    font-size: 20px;
-    transition: 0.3s;
-    color: black;
-    border-radius: 5px;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-name: anime;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-}
-@keyframes anime{
-    from{background: indigo;
-        color: white;
-    }
-    to{
-        background: aqua;
-        color: black;
-    }
+    padding: 10px;
+    width: auto;
+    background-image: url(./download.jpeg);
+    flex-direction: column;
+    background-size: cover;
 }
 .menu{
-    display: flex;
-    gap: 5px;
+    display: -ms-flexbox;
+    gap:20px;
 }
 .menu a{
     position: relative;
-   text-decoration: none;
-   color: black;
-   text-transform: lowercase;
-   transition: 0.3s;
-   cursor: pointer;
-   flex: auto;
-   bottom: 20px;
-}
-.menu a:hover{
-    position: relative;
-    color:pink;
-    text-transform:lowercase;
-    font-weight: 900;
-    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    margin-left: 50px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;
+    font-weight: 500;
     font-style: italic;
 }
-.search-box{
-    gap: 1px;
-    flex-direction: column;
-}
-.search-box input{
-    position: relative;
-    width: 15vw;
-    height: 4vh;
-    border: 0px transparent;
-    text-align: center;
-    cursor: pointer;
-    flex: auto;
-    bottom: 20px;
-    margin-right: 10px;
-    border-left: 5px solid purple;
-    border-radius: 5px;
-}
-.search-box button{
-    position: relative;
-    height: 4vh;
-    border: 0px transparent;
-    cursor: pointer;
-   flex: auto;
-   bottom: 20px;
-   margin-right: 20px;
-   border-right: 5px solid blue;
-   border-radius: 5px;
-}
-.search-box input::placeholder{
-    color: black;
-    font-weight: 900;
+.menu a:hover{
+    transition: all 0.3s ease;
+    font: bold;
     text-transform: capitalize;
+    cursor: pointer;
+    border-radius: -4px;
+    transform: translateX(-4px);
+    background-color: white;
+    color: black;
+    border: 2px solid #f2f3f7;
+    padding-top: 5px;
+    border-radius: 5px 0 5px 0;
+    position: relative;
 }
-.search-box input:hover{
-font-size: 20px;
-text-transform: lowercase;
-transition: 0.3s;
-border-radius: 5px 0 0 5px;
+.logo{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    flex: auto;
+    top: 20px;
+    background-color: white;
 }
-.search-box button:hover{
-color: blue;
-text-transform: capitalize;
-border-left: 2px solid rgb(5, 30, 255);
-border-radius: 5px;
+.logo a{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
 }
+        #home.container{
+            margin: 0;
+            position: relative;
+            width: auto;
+            flex-direction: column;
+            height: auto;
+            background-size: cover;
+            background-image: url('./download.jpeg');
+        }
+        .hero-text{
+            position: relative;
+            background-color: #3d68f3;
+            width: 80vw;
+            height: 55vh;
+            top: 10px;
+            flex-direction: column;
+            text-align: center;
+            justify-self: center;
+            animation-timing-function: ease-in;
+            animation-duration: 5s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-play-state:inherit;
+            animation-name: name;
+            border-radius: 20px;
+        }
+        @keyframes name{
+             0% { transform: rotate(0deg)  rotate(0deg); }
+            100% { transform: rotate(360deg)  rotate(-360d)}
+        }
+        .hero-text:hover{
+            transform: translateY(-4px);
+            padding-bottom: -4px;
+            transition:0.3s all ease;
+            transition-duration: 9.3s;
+            cursor: pointer;
+        }
+        .hero-text h1{
+            position: relative;
+            text-align: center;
+            top: 80px;
+            color: white;
+            text-shadow: 10px 10px 10px white;
+        }
+        .hero-text p{
+            position: relative;
+            top: 100px;
+            font-size: 20px;
+            text-transform: capitalize;
+            color: white;
+            font-weight: 500;
+            text-align: center;
+            font-style: italic;
+        }
+        .hero-btns button{
+            position: relative;
+            top: 0px;
+            margin-left: 80px;
+            width: 20vw;
+            height: 6vh;
+            flex-direction: column;
+            border: 1px solid #01f3a7;
+            background-color: #01f3a7;
+            color: black;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            border-left: 10px solid orange;
+        }
+        .hero-btns button:hover{
+             transform: translateY(-4px);
+            padding: -4px;
+            transition:0.3s;
+            transition-duration: 0.3s;
+            cursor: pointer;
+            background-color: #3d68f3;
+            color: white;
+            border: 1px solid #3d68f3;
+        }
+    #home.container1{
+        position: relative;
+        background-color:#e9ecf8;
+        width: auto;
+    }
+    .container1 h1{
+        position: relative;
+        text-align: center;
+        font-size: large;
+        top: 10px;
+        text-transform: capitalize;
+    }
+    .container1 img{
+        position: relative;
+        width: 80vw;
+        height: 50vh;
+        opacity:1;
+        object-fit: fill;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .container1 img:hover{
+        transition: 0.3s all ease;
+        cursor: pointer;
+        transform:translateY(-4px);
+        padding-bottom: 5px;
+        transition-duration: 0.3s;
+    }
+    .container1 p{
+        position: relative;
+        font: medium;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .container1 h3{
+        position: relative;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .button2 button{
+        position: relative;
+        text-align: center;
+       width: 20vw;
+       height: 5vh;
+       border: 2px solid #3d68f3;
+       background-color: #3d68f3;
+       color: #f2f3f7;
+      flex: auto;
+      margin-left: 100px;
+      font-size: medium;
+      cursor: pointer;
+    }
+    .button2 button:hover{
+        transition:0.3s all ease;
+        transform: translateY(-4px);
+        padding-bottom: 5px;
+        background-color: #01f3a7;
+        border: 1px solid #01f3a7;
+        border-radius: 10px;
+        color: black;
+    }
+    .footer{
+        position: relative;
+        width: auto;
+        height:41vh;
+        background-color: #111522;
+        top: 20px;
+    }
+    .footer h1{
+        position: relative;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-size: large;
+        font-style: italic;
+        text-align: center;
+        top: 20px;
+    }
+    .footer h1:hover{
+        transition: all 0.3s ease;
+        text-decoration: underline;
+        cursor: pointer;
+        text-align: center;
+        color: whitesmoke;
+        transform: translateY(-4px);
+        padding-bottom: -4px;
+    }
+    .item0,a{
+        position: relative;
+        text-indent: 1;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        top: 20px;
+        flex: auto;
+    }
+    .item0,a:hover{
+        transition: all 0.3s ease;
+        transform: translateY(-4px);
+        padding-bottom: -4px;
+        color: #8509f8;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .line{
+        position: relative;
+        top: 30px;
+        font-size: 40px;
+        font-weight:900
+    }
+    .foot p{
+        position: relative;
+        color: white;
+        text-align: center;
+        top: 60px;
+    }
+    .social-links,h1{
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+    }
+    .social-links a,img{
+       position: relative;
+       width: 40px;
+       height: 40px;
+       top: 20px;
+       border-radius: 40px;
+    }
+    .social-links a:hover{
+        transition: all 0.3s ease;
+        transform: translateY(-4px);
+        padding-bottom: -4px;
+        font-size: medium
+    }
