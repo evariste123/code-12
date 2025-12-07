@@ -1,7 +1,7 @@
 body{
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #d4f5ea;
+    border-radius: 5px;
 }
 .navbar{
     position: relative;
@@ -10,6 +10,7 @@ body{
     background-image: url(./download.jpeg);
     flex-direction: column;
     background-size: cover;
+    border-radius: 5px 5px 0 0;
 }
 .menu{
     display: -ms-flexbox;
@@ -22,6 +23,7 @@ body{
     color: white;
     margin-left: 50px;
     bottom: 20px;
+    text-align: center;
     cursor: pointer;
     padding: 2px 2px 2px 2px;
     font-weight: 500;
@@ -33,7 +35,7 @@ body{
     text-transform: capitalize;
     cursor: pointer;
     border-radius: -4px;
-    transform: translateX(-4px);
+    transform: translateX(-5px);
     background-color: white;
     color: black;
     border: 2px solid #f2f3f7;
@@ -60,6 +62,7 @@ body{
             margin: 0;
             position: relative;
             width: auto;
+            bottom: 21px;
             flex-direction: column;
             height: auto;
             background-size: cover;
@@ -69,8 +72,8 @@ body{
             position: relative;
             background-color: #3d68f3;
             width: 80vw;
-            height: 55vh;
-            top: 10px;
+            height: 60vh;
+            top: 0px;
             flex-direction: column;
             text-align: center;
             justify-self: center;
@@ -88,7 +91,7 @@ body{
         }
         .hero-text:hover{
             transform: translateY(-4px);
-            padding-bottom: -4px;
+            padding-bottom: 4px;
             transition:0.3s all ease;
             transition-duration: 9.3s;
             cursor: pointer;
@@ -96,16 +99,17 @@ body{
         .hero-text h1{
             position: relative;
             text-align: center;
-            top: 80px;
+            top: 20px;
             color: white;
             text-shadow: 10px 10px 10px white;
         }
         .hero-text p{
             position: relative;
-            top: 100px;
+            top: 10px;
             font-size: 20px;
             text-transform: capitalize;
             color: white;
+            flex: auto;
             font-weight: 500;
             text-align: center;
             font-style: italic;
@@ -114,7 +118,7 @@ body{
             position: relative;
             top: 0px;
             margin-left: 80px;
-            width: 20vw;
+            width: 25vw;
             height: 6vh;
             flex-direction: column;
             border: 1px solid #01f3a7;
@@ -127,7 +131,7 @@ body{
         }
         .hero-btns button:hover{
              transform: translateY(-4px);
-            padding: -4px;
+            padding-bottom: 4px;
             transition:0.3s;
             transition-duration: 0.3s;
             cursor: pointer;
@@ -160,7 +164,7 @@ body{
     .container1 img:hover{
         transition: 0.3s all ease;
         cursor: pointer;
-        transform:translateY(-4px);
+        transform:translateY(-5px);
         padding-bottom: 5px;
         transition-duration: 0.3s;
     }
@@ -178,8 +182,8 @@ body{
     .button2 button{
         position: relative;
         text-align: center;
-       width: 20vw;
-       height: 5vh;
+       width: 25vw;
+       height: 6vh;
        border: 2px solid #3d68f3;
        background-color: #3d68f3;
        color: #f2f3f7;
@@ -190,7 +194,7 @@ body{
     }
     .button2 button:hover{
         transition:0.3s all ease;
-        transform: translateY(-4px);
+        transform: translateY(-5px);
         padding-bottom: 5px;
         background-color: #01f3a7;
         border: 1px solid #01f3a7;
@@ -200,6 +204,7 @@ body{
     .footer{
         position: relative;
         width: auto;
+        text-align: center;
         height:41vh;
         background-color: #111522;
         top: 20px;
@@ -221,9 +226,9 @@ body{
         text-align: center;
         color: whitesmoke;
         transform: translateY(-4px);
-        padding-bottom: -4px;
+        padding-bottom: 4px;
     }
-    .item0,a{
+    .item0 a{
         position: relative;
         text-indent: 1;
         text-align: center;
@@ -232,10 +237,10 @@ body{
         top: 20px;
         flex: auto;
     }
-    .item0,a:hover{
+    .item0 a:hover{
         transition: all 0.3s ease;
         transform: translateY(-4px);
-        padding-bottom: -4px;
+        padding-bottom: 4px;
         color: #8509f8;
         cursor: pointer;
         font-size: medium;
@@ -250,23 +255,23 @@ body{
         position: relative;
         color: white;
         text-align: center;
-        top: 60px;
+        top: 20px;
     }
     .social-links,h1{
         position: relative;
         text-align: center;
         cursor: pointer;
     }
-    .social-links a,img{
-       position: relative;
-       width: 40px;
-       height: 40px;
-       top: 20px;
-       border-radius: 40px;
-    }
     .social-links a:hover{
         transition: all 0.3s ease;
         transform: translateY(-4px);
-        padding-bottom: -4px;
+        padding-bottom: 4px;
         font-size: medium
+    }
+    .social-links img{
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        top: 20px;
     }
