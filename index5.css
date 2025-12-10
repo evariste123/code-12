@@ -1,0 +1,486 @@
+
+.navbar{
+    position: relative;
+    padding: 10px;
+    width: auto;
+    background-color: rgb(33, 11, 44);
+    flex-direction: column;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.menu{
+    display: -ms-flexbox;
+    gap:20px;
+}
+.menu a{
+    position: relative;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    margin-left: 50px;
+    bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;
+    font-weight: 500;
+    font-style: italic;
+}
+.menu a:hover{
+    transition: all 0.3s ease;
+    font: bold;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: -4px;
+    transform: translateX(-4px);
+    background-color: rgb(96, 24, 124);
+    color:white;
+    border: 0px solid #701d70;
+    padding-bottom: 4px;
+    border-radius: 5px 0 5px 0;
+    position: relative;
+}
+.logo{
+    position: relative;
+    width: 60px;
+    top: 10px;
+    height:60px;
+    border-radius: 60px;
+    margin-left:0px;
+    background: linear-gradient(to right,blue,purple);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.logo b{
+    position: relative;
+    top: 10px;
+    font: bold;
+    font-style: italic;
+    font-weight: 900;
+}
+.container{
+    position: relative;
+    flex: auto;
+    width: auto;
+    height: auto;
+    background-color:rgb(56, 126, 192);
+}
+.container h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(252, 253, 253);
+    }
+    .container p{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .container button{
+        position: relative;
+        width: 20vw;
+        height: 8vh;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        font: 20px bold;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .container button:hover{
+        position: relative;
+        transition: all 0.3s ease;
+        font-weight: 900;
+        border-radius: 20px;
+        border-bottom-right-radius:3px solid blue;
+        background:linear-gradient(to right,blue,purple,cyan);
+        color: white;
+        text-shadow: 10px 10px 10px white;
+    }
+    .card h2{
+        position: relative;
+        width: 20vw;
+        height: 5vh;
+        border-radius: 5px;
+        color: white;
+        background: linear-gradient(to right,purple,cyan);
+        justify-self: center;
+        text-align: center;
+    }
+    #technologies.container1{
+        position: relative;
+        flex-direction: column;
+        width: auto;
+        height: 155vh;
+        background-color: #c4c2c5;
+        bottom: 22px;
+    }
+    .container1 h1{
+        position: relative;
+        text-align: center;
+        font: bold;
+        font-weight: 900;
+        font-style: italic;
+        top: 20px;
+    }
+    .card0{
+        position: relative;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .card1 {
+        position: relative;
+        flex: auto;
+        width: 26vw;
+        height:51vh;
+        border-left: 5px solid blue;
+        border-radius: 10px;
+        background-color: rgb(216, 201, 201);
+    }
+    .card1:hover{
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    .card1 img{
+        position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card1 img:hover{
+          position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .card1 i{
+        position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card2{
+        position: relative;
+        border-left: 5px solid blue;
+        flex: auto;
+        width: 26vw;
+        justify-self: center;
+        bottom: 320px;
+        height:51vh;
+        border-radius: 10px;
+        background-color: rgb(216, 201, 201);
+    }
+    .card2 img{
+        position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card2 i{
+        position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card2:hover{
+         position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    .card3{
+        position: relative;
+        justify-self: right;
+        margin-right: 10px;
+        bottom: 655px;
+        background-color: rgb(216, 201, 201);
+        height: 51vh;
+        width: 25vw;
+        border-radius: 10px;
+        border-left: 5px solid blue;
+    }
+    .card3 img{
+         position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card3 i{
+         position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card3:hover{
+         position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    .card4{
+        position: relative;
+       background-color: rgb(216, 201, 201);
+       width: 25vw;
+       height: 51vh;
+       border-radius: 10px;
+       border-left: 5px solid blue;
+       justify-self: left;
+       margin-left: 8px;
+       bottom: 600px;
+    }
+    .card4 img{
+          position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card4 i{
+         position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card4:hover{
+         position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    .card5{
+         position: relative;
+       background-color: rgb(216, 201, 201);
+       width: 25vw;
+       height: 51vh;
+       border-radius: 10px;
+       border-left: 5px solid blue;
+       justify-self: center;
+       bottom: 900px;
+    }
+    .card5 img{
+         position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card5 i{
+         position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card5:hover{
+           position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    .card6{
+                 position: relative;
+       background-color: rgb(216, 201, 201);
+       width: 25vw;
+       height: 51vh;
+       border-radius: 10px;
+       border-left: 5px solid blue;
+       justify-self:right;
+       margin-right: 10px;
+       bottom: 1250px;
+    }
+    .card6 img{
+           position: relative;
+        width: 20vw;
+        flex: 10vh;
+        height:auto;
+       margin-left: 10px;
+       top: 10px;
+       border-radius: 10px;
+    }
+    .card6 i{
+         position: relative;
+        top: 10px;
+        font: 20px bold;
+        font-weight: 900;
+    }
+    .card6:hover{
+            position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-4px);
+        padding-right:4px;
+        font-size: medium;
+    }
+    #works.container2{
+        position: relative;
+        background-color: rgb(26, 26, 29);
+        color: white;
+        bottom: 44px;
+        width: auto;
+        height: 100vh;
+    }
+    .container2 h1{
+        position: relative;
+        text-align:right;
+        margin-right: 30px;
+        text-transform: capitalize;
+        font-style: italic;
+        font-weight: 900;
+        font: bold;
+        top: 20px;
+    }
+    .logos{
+        position: relative;
+        width: 30vw;
+        height: 48vh;
+        background-color: rgb(51, 51, 53);
+        top: 20px;
+        border-radius: 10px;
+        grid-template-columns:grid;
+        justify-self: right;
+        margin-right: 10px;
+    }
+    .logos:hover{
+        position: relative;
+        transition: all 0.3s ease;
+        transform: translateY(-4px);
+        padding-bottom: 4px;
+        cursor: pointer;
+    }
+    .logos img{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        flex: auto;
+        border-radius: 10px;
+        margin-left: 60px;
+        top: 30px;
+    }
+    .logos img:hover{
+        position: relative;
+        transition: all 0.3s ease;
+        transform: translateX(-4px);
+        padding-bottom: 4px;
+        cursor: pointer;
+    }
+    .dropdown{
+        position: relative;
+        text-transform: capitalize;
+        bottom: 400px;
+        margin-left: 10px;
+    }
+    .drop{
+        display: grid;
+        gap: 10px;
+    }
+    .drop a{
+        position: relative;
+        color: white;
+        font: bold;
+        font-style: italic;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        width: 6vw;
+        height: 6vh;
+        border: 1px solid transparent;
+    }
+    .drop a:hover{
+        transform: translateY(-4px);
+        padding-bottom: 4px;
+        color: wheat;
+        text-transform: lowercase;
+        background-color: rgb(115, 115, 180);
+        width: 6vw;
+        height: 6vh;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .image{
+        position: relative;
+        justify-self: center;
+        bottom: 900px;
+        border-radius: 10px;
+        width:30vw;
+        height: 50vh;
+        border-left: 4px solid green;
+        text-align: center;
+        background-color: rgb(37, 37, 39);
+    }
+    .image h3{
+        position: relative;
+        color: white;
+        text-align: center;
+        top: 10px;
+    }
+    .image input{
+        position: relative;
+        top: 10px;
+        width: 25vw;
+        height: 5vh;
+        border-radius: 5px;
+        border-left: 5px solid rgb(45, 8, 255);
+        cursor: pointer;
+        font-style: italic;
+        border: 1px solid transparent;
+    }
+    .image input::placeholder{
+        position: relative;
+        color: black;
+        text-align: center;
+        font: 20px bold;
+    }
+    .image input:hover{
+        position: relative;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+        border: 2px solid rgb(2, 138, 127);
+    }
+    .image button{
+        position: relative;
+        width: 20vw;
+        height: 7vh;
+        border-radius: 5px;
+        text-align: center;
+        background-color: rgb(60, 60, 248);
+        color: white;
+        font-style: italic;
+        font-weight: 900;
+        font: bold;
+        cursor: pointer;
+        top: 10px;
+        border: 1px solid transparent;
+    }
+    .image button:hover{
+        position: relative;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 0px;
+        transition: all 0.3s ease;
+        color: black;
+    }

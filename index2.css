@@ -107,3 +107,19 @@ body{
     bottom: 10px;
     background:linear-gradient(to right,rgb(183, 0, 255),rgb(136, 255, 0)) ;
 }
+
+.logo{
+    position: relative;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+    top: 20px;
+    background: linear-gradient(to right,blue,purple);
+}
+.logo b{
+    position: relative;
+    top: 10px;
+}

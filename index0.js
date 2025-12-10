@@ -23,17 +23,3 @@ get.addEventListener('click',(e)=>{
         alert("Now! you have been get our info");
     }
 })
-ervice=document.getElementById("service");
-service.addEventListener('click',(e)=>{
-    e.preventDefault();
-    {
-        alert("thanks for downloading our template!");
-    }
-})
-let service1=document.getElementById("service");
-service1.addEventListener('click',(e)=>{
-    e.preventDefault();
-    {
-        alert("Yes! I'm ready to get you")
-    }
-})
