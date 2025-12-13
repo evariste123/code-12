@@ -1,12 +1,15 @@
-
+body{
+    background-color: rgb(32, 124, 131);
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar{
     position: relative;
     padding: 10px;
     width: auto;
-    background-color: rgb(33, 11, 44);
+    background-color: rgb(6, 36, 31);
     flex-direction: column;
     background-size: cover;
-    border-radius: 5px 5px 0 0;
+    border-radius: none;
 }
 .menu{
     display: -ms-flexbox;
@@ -173,7 +176,7 @@
         flex: auto;
         width: 26vw;
         justify-self: center;
-        bottom: 320px;
+        bottom: 290px;
         height:51vh;
         border-radius: 10px;
         background-color: rgb(216, 201, 201);
@@ -205,7 +208,7 @@
         position: relative;
         justify-self: right;
         margin-right: 10px;
-        bottom: 655px;
+        bottom: 640px;
         background-color: rgb(216, 201, 201);
         height: 51vh;
         width: 25vw;
@@ -244,7 +247,7 @@
        border-left: 5px solid blue;
        justify-self: left;
        margin-left: 8px;
-       bottom: 600px;
+       bottom: 550px;
     }
     .card4 img{
           position: relative;
@@ -277,7 +280,7 @@
        border-radius: 10px;
        border-left: 5px solid blue;
        justify-self: center;
-       bottom: 900px;
+       bottom: 850px;
     }
     .card5 img{
          position: relative;
@@ -311,7 +314,7 @@
        border-left: 5px solid blue;
        justify-self:right;
        margin-right: 10px;
-       bottom: 1250px;
+       bottom: 1200px;
     }
     .card6 img{
            position: relative;
@@ -424,7 +427,7 @@
     .image{
         position: relative;
         justify-self: center;
-        bottom: 900px;
+        bottom: 850px;
         border-radius: 10px;
         width:30vw;
         height: 50vh;
@@ -484,3 +487,330 @@
         transition: all 0.3s ease;
         color: black;
     }
+    .footer{
+        position:relative;
+        background-color: #141414;
+        width: auto;
+        height: 60vh;
+        color: white;
+        bottom: 95px;
+    }
+    .social-links{
+        position: relative;
+        text-align: center;
+        justify-self: center;
+        color: white;
+        text-transform: capitalize;
+        font-size: medium;
+        font-style: italic;
+        bottom: 600px;
+    }
+    .social-links img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    .links{
+        position: relative;
+        justify-content: space-between;
+        background-color: none;
+    }
+    .time{
+        display: grid;
+        gap: 10px;
+    }
+    .time a{
+        position: relative;
+        background-color: none;
+        text-decoration: none;
+        cursor: pointer;
+        color: wheat;
+        margin-left: 30px;
+        flex-direction: row;
+    }
+    .time a:hover{
+        position: relative;
+        color: white;
+        transition: all ease 0.3s;
+        cursor: pointer;
+    }
+    .java{
+        position: relative;
+        justify-self: right;
+        margin-right: 20px;
+        color: white;
+        bottom: 335px;
+        width: 20vw;
+        height: auto;
+        background-color: #141414;
+        border-radius: 0 10px 0 0;
+    }
+    .none{
+        position: relative;
+        justify-content: space-between;
+    }
+    .date{
+        display: grid;
+        gap: 10px;
+    }
+    .date a{
+        position: relative;
+        text-decoration: none;
+        color: wheat;
+        margin-left: 20px;
+        flex-direction: row;
+        cursor: pointer;
+    }   
+    .date a:hover{
+        position: relative;
+        color: white;
+        transition: all ease 0.3s;
+    }
+    .paragraph p{
+        position: relative;
+        bottom: 450px;
+        color: white;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+    }
+    #about.container3{
+        position: relative;
+        width: auto;
+        height: auto;
+        bottom: 75px;
+        background-color: #c4c2c5;
+    }
+    .btn h1{
+        position: relative;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: large;
+    }
+    .btn button{
+        position: relative;
+        margin-left: 50px;
+        width: 20vw;
+        height: 7vh;
+        justify-self: center;
+        border-radius: 10px;
+        border: 1px solid violet;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .btn button:hover{
+        transition: all 0.3s ease;
+        transform: translateX(-4px);
+        padding-bottom: 4px;
+        border: 1px solid green;
+        background-color: wheat;
+    }
+    .btn0{
+        position: relative;
+        width: 90vw;
+        height: auto;
+        border-radius: 10px;
+        justify-self: center;
+        top: 20px;
+        background-size: cover;
+        background-color: wheat;
+    }
+    .btn1{
+        position: relative;
+        font: 20px bold;
+        border-radius: 10px;
+        top: 10px;
+    }
+    .btn1 h1{
+        position: relative;
+        font: 20px bold;
+        font-style: italic;
+        text-align: center;
+        color: green;
+        font-weight: 900;
+    }
+    .btn1 ul,li{
+        position: relative;
+        font: bold;
+        font-size: medium;
+    }
+    .btn2 h4{
+        position: relative;
+        color: blue;
+        font-size: medium;
+        text-align: center;
+        top: 10px;
+    }
+    .btn2
+    .btn2 ul,li{
+        position: relative;
+        font-size: medium;
+        font-weight: 500;
+    }
+    .btn3 h5{
+        position: relative;
+        color: red;
+        font-weight: 500;
+        font-size: medium;
+        font: bold;
+        text-align: center;
+        top: 10px;
+    }
+    .btn2 h5:hover{
+        position: relative;
+        transition: all 0.3s ease;
+        color: white;
+        cursor: pointer;
+    }
+    .btn3 ul,li{
+position: relative;
+color: black;
+        font-size: medium;
+        font-weight: 500;
+        font: 20px bold;
+    }
+    .btn4{
+    position: relative;
+    text-align: center;
+    }
+.btn4 h1{
+position: relative;
+color:rgb(4, 70, 70);
+font-weight: 800;
+text-transform: capitalize;
+top: 15px;
+text-align: center;
+}
+.btn4 button{
+position: relative;
+width: 40vw;
+height: 8vh;
+font: 20px bold;
+font-style: italic;
+border: 1px solid indigo;
+color: white;
+background:linear-gradient(to right,rgb(155, 72, 155),rgb(60, 60, 151),rgb(76, 163, 76));
+}
+.btn4 button:hover{
+position: relative;
+transition: all 0.3s ease-in;
+background: white;
+color: black;
+border-radius: none;
+border: 1px solid white;
+cursor: pointer;
+}
+.btn5{
+position: relative;
+text-align: center;
+}
+.btn5 h1{
+position: relative;
+color: rgb(29, 6, 29);
+text-align: center;
+text-transform: capitalize;
+font: 20px bold;
+font-weight: 900;
+top: 5px;
+}
+.btn5 button{
+position: relative;
+width: 40vw;
+height: 8vh;
+background-color: rgb(27, 26, 25);
+color: rgb(253, 250, 250);
+text-transform: capitalize;
+font-style: italic;
+cursor: pointer;
+font: 20px bold;
+border: 1px solid rgb(34, 32, 28);
+}
+.btn5 button:hover{
+position: relative;
+color: white;
+font: 20px bold;
+background-color: blueviolet;
+transition: all 0.3s ease;
+border: 1px solid blueviolet;
+}
+.conta{
+    position: relative;
+    width: 90vw;
+    height: 205vh;
+    border-radius: 10px;
+    margin-left: 10px;
+    justify-self: center;
+    justify-items: center;
+    background-color: wheat;
+    border-left: 5px solid blue;
+}
+.conta:hover{
+    position: relative;
+    transition: 0.3s all ease;
+    padding-bottom: 4px;
+    transform: translateX(4px);
+    cursor: pointer;
+}
+.conta h5{
+    position: relative;
+    color: rgb(52, 17, 253);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-style: italic;
+    font-size:large;
+}
+.imag{
+    position: relative;
+    justify-self: center;
+}
+.imag h3{
+    position: relative;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize;
+    font: large bold;
+    text-align: center;
+}
+.imag img{
+    position: relative;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 5px;
+    justify-self: center;
+}
+.imag ul,li,u{
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.contact{
+    position: relative;
+    width: 60vw;
+    height: auto;
+    border: 1px solid wheat;
+    border-radius: 20px;
+   justify-items: center;
+    color: white;
+    background:linear-gradient(to right,rgb(139, 72, 139),rgb(132, 132, 247),rgb(125, 243, 125));
+}
+.contact input{
+    position: relative;
+    width: 35vw;
+    height: 6vh;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    background-color: #141414;
+    text-align: center;
+}
+.contact input::placeholder{
+    font: medium bold;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}

@@ -1,18 +1,23 @@
 body{
-    margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right,rgb(148, 74, 148),rgb(73, 73, 139),rgb(90, 143, 55));
 }
 .reset{
     position: relative;
     width: 50vw;
-    height: 48vh;
+    height: 55vh;
     border-radius: 20px;
     border: 1px transparent;
     justify-self: center;
     top: 100px;
     text-align: center;
     background: linear-gradient(white,rgb(68, 160, 160));
+}
+.reset:hover{
+    position: relative;
+    transform: translateX(-4px);
+    padding-bottom: -4px;
+    cursor: pointer;
 }
 .card h1{
     position: relative;
