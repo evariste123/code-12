@@ -11,3 +11,16 @@ formID.addEventListener(('submit'),(e)=>{
         alert("Get your resources from our wwebsite");
     }
 })
+let language=document.getElementById("language");
+language.addEventListener('click',(e)=>{
+    e.preventDefault();
+    {
+        const language=document.getElementById("language").value;
+    }
+    {
+        console.log("your language:",language)
+    }
+    {
+        alert("translating language...")
+    }
+})
