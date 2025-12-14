@@ -7,7 +7,7 @@ body{
 #search.search{
     position: relative;
     width: auto;
-    height: 105vh;
+    height: 130vh;
     text-transform: capitalize;
      background: linear-gradient(white,rgb(39, 39, 114));
 }
@@ -24,6 +24,13 @@ body{
     text-align: center;
     border-top: 2px solid rgb(120, 161, 58);
     background: linear-gradient(to right,purple,rgb(40, 40, 128));
+}
+.logo:hover{
+    position: relative;
+    transition: all 0.3s ease-in;
+    transform: translateX(-4px);
+    padding-bottom: -4px;
+    cursor: pointer;
 }
 .logo b{
     position: relative;
@@ -83,13 +90,15 @@ body{
 .button{
     position: relative;
     margin-left: 10px;
-    top: 50px;
+    top: 40px;
     cursor: pointer;
+    justify-self: center;
+    border-right: 3px solid green;
     border-left: 3px solid orangered;
 }
 .button button{
-    width: 26vw;
-    height: 17vh;
+    width: 34vw;
+    height: 30vh;
     font-size: medium;
     border-radius: 20px;
     font-style: italic;
@@ -103,31 +112,14 @@ body{
     transform: translateY(-4px);
     padding-bottom: -4px;
 }
-.button1{
-    position: relative;
-    justify-self: center;
-    bottom: 60px;
-     border-left: 3px solid darkmagenta;
-}
-.button1 button{
-     width: 26vw;
-    height: 17vh;
-    font-size: medium;
-    font-style: italic;
-    border-radius: 20px;
-    border: 1px solid transparent;
-    background: linear-gradient(to right,rgb(253, 239, 239),rgb(198, 198, 245)); 
-}
-.button1 button:hover{
-    position: relative;
-    transition: all 0.3s ease-in;
-    cursor: pointer;
-    transform: translateY(-4px);
-    padding-bottom: -4px;
-}
 .form{
     position: relative;
     justify-self: center;
+    top: 100px;
+}
+.form h1{
+    position: relative;
+    top: 10px;
 }
 .form input{
     width: 40vw;
@@ -154,7 +146,7 @@ body{
 }
 .form button{
     position: relative;
-    width: 4vw;
+    width: 5vw;
     height: 5vh;
     background-color: rgb(14, 253, 14);
     color: black;
@@ -166,17 +158,67 @@ body{
     cursor: pointer;
 }
 .footer{
+    top: 80px;
     position: relative;
     width: auto;
     height: 50vh;
     background-color: #010101;
+    text-align: center;
 }
 .footer p{
     position: relative;
     text-align: center;
-    top: 280px;
+    top: 20px;
     font-size: 20px medium;
     font-style: italic;
+    text-align: center;
     font-weight: 500;
     color: white;
 }
+    .item0 a{
+        position: relative;
+        text-indent: 1;
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        top: 10px;
+        flex: auto;
+    }
+    .item0 a:hover{
+        transition: all 0.3s ease;
+        transform: translateY(-4px);
+        padding-bottom: 4px;
+        color: #8509f8;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .line{
+        position: relative;
+        top: 30px;
+        font-size: 40px;
+        font-weight:900
+    }
+    .foot p{
+        position: relative;
+        color: white;
+        text-align: center;
+        top: 20px;
+    }
+    .social-links,h1{
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+    }
+    .social-links a:hover{
+        transition: all 0.3s ease;
+        transform: translateY(-4px);
+        padding-bottom: 4px;
+        font-size: medium
+    }
+    .social-links img{
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        top: 20px;
+    }
