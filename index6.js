@@ -18,9 +18,9 @@ language.addEventListener('click',(e)=>{
         const language=document.getElementById("language").value;
     }
     {
-        console.log("your language:",language)
+        console.log("your language:",language);
     }
     {
-        alert("translating language...")
+        alert("translating language...");
     }
 })
