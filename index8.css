@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial sans-serif;
-    background-color: #292829;
+    background-color: #050505;
 }
 .footer{
     position: relative;
@@ -79,19 +79,26 @@ body{
     height: 100vh;
     top: 21px;
     background-size: cover;
+    text-align: center;
     opacity: 1;
-    background-color: #292829;
+    background-image: url('./image2/avat.png');
     }
-     .navbar{
+    .cont{
         position: relative;
         width: auto;
-        margin: 60px;
-        border-radius: 20px;
-        border-left: 5px blue solid;
+        height: 13vh;
+        background-color:#050505;
+    }
+     .navbar{
+        position: fixed;
+        width: 100vw;
+        justify-self: center;
+        border-radius: 5px;
+        top: 10px;
         text-align: center;
         justify-content: space-between;
-        height: 13vh;
-        background-color: #101011;
+        height: 15vh;
+        background-color: #050505;
      }
      .navbar{
         display: -ms-flexbox;
@@ -102,8 +109,16 @@ body{
         flex: auto;
         text-decoration: none;
         color: white;
-        padding-left: 60px;
+        padding-left: 20px;
+        font: 20px bold;
+        text-transform: capitalize;
         top: 20px;
+     }
+     .navbar a:hover{
+        position: relative;
+        transition: all 0.3s ease-in;
+        color: cyan;
+        cursor: pointer;
      }
      .logo{
         position: relative;
@@ -111,4 +126,74 @@ body{
         font: 20px bold;
         color: white;
         font-weight: 900;
+     }
+     .logo span{
+        position: relative;
+        color: greenyellow;
+        font: 20px bold;
+        font-weight: 900;
+     }
+     .navbar button{
+        width: 15vw;
+        height: 5vh;
+        position: relative;
+        background-color: #8509f8;
+        color: white;
+        top: 2px;
+        border: 1px solid #8509f8;
+        border-radius: 10px;
+        cursor: pointer;
+     }
+     .navbar button:hover{
+        position: relative;
+        transition: 0.3s ease-in;
+        background-color: #2f0358;
+        color: white;
+        cursor: pointer;
+        border: 1px solid #2f0358;
+        text-overflow:1px;
+     }
+     .image{
+        position: relative;
+        justify-self: center;
+        background-color: #dfe1e4;
+        width:75vw;
+        border-radius: 20px;
+        top: 20px;
+        height: 60vh;
+        text-align: center;
+     }
+     .image b{
+        position: relative;
+        text-align: center;
+        font: 20px bold;
+        text-transform: capitalize;
+        top: 10px;
+        font-style: italic;
+        text-align: center;
+        font-weight: 900;
+     }
+     .image button{
+        position: relative;
+        width: 20vw;
+        height: 15vh;
+        margin-left: 10px;
+        font: medium bold;
+        top: 20px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        border-left: 5px solid blue;
+        color: white;
+        background: linear-gradient(to right,rgb(40, 75, 75),rgb(131, 63, 131));
+     }
+     .image button:hover{
+        position: relative;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+        transform: translateX(-4px);
+        padding-bottom: 4px;
+        border: 1px solid wheat;
+        background: wheat;
+        color: black;
+        font: bold;
      }
